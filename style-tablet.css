@@ -1,0 +1,221 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Copse);
+
+html, body {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/* ---------------------------------- */
+/* -             HEADER             - */
+/* ---------------------------------- */
+
+#header {
+	width: 100%;
+	height: 438px;
+	background-image: url("images/header-background-reduce.jpg");
+	background-repeat: repeat-x;
+	background-size: 700px;
+	background-position: 320px 0; 
+}
+
+#header-container {
+	width: 100%;
+	height: 180px;
+	padding-top: 90px;
+	text-align: center;
+	color: white;
+}
+
+#photo {
+	width: 180px;
+	height: 180px;
+	margin: 0 auto;
+	float: none;
+	background-color: white;
+	background-size: 160px;
+	background-image: url("images/photo.png");
+	background-position: 10px 11px;
+	background-repeat: no-repeat;
+  	border-radius:50%;
+}
+
+#head-title {
+	height: 180px;
+}
+
+#head-title h1 {
+	margin: 0 auto;
+	padding-top: 30px;
+	font-family: 'Fjalla One', serif;
+	font-size: 3em;
+}
+
+#head-title h3 {
+	margin: 0 auto;
+	padding-top: 30px;
+	font-family: 'Century Gothic', serif;
+	font-size: 1em;
+}
+
+/* ---------------------------------- */
+/* -              Page              - */
+/* ---------------------------------- */
+
+.page {
+	margin: 0 auto;
+	width: 100%;
+	background-image: url("images/page-background.png");
+	background-repeat: repeat; 
+}
+
+#page-blocks {
+	width: 90%;
+	height: 100%;
+	padding-top: 30px;
+	border-bottom: solid;
+	border-bottom-color: #999;
+	border-bottom-width: 1px;
+}
+
+#block1, #block2, #block3 {
+	width: 100%;
+	height: 100%;
+	float: none;
+	background-position: 10% 10px;
+	background-repeat: no-repeat;
+	background-size: 120px;
+}
+
+#block1 {
+	background-image: url("images/desktop.png");
+	padding-bottom: 30px;
+}
+
+#block2 {
+	background-image: url("images/braces.png");
+	padding-bottom: 30px;
+}
+
+#block3 {
+	background-image: url("images/binary.png");
+	padding-bottom: 30px;
+}
+
+.block-text {
+	margin: 0 auto;
+	padding-left: 140px;
+	padding-top: 0;
+	color: #3e3e3e;
+	text-align: center;
+}
+
+.block-text img {
+	width: 16px;
+	height: 16px;
+}
+
+.block-text h1 {
+	font-size: 2em;
+	font-family: 'Copse', serif;
+}
+
+.block-text table {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#page-passion {
+	margin: 0 auto;
+	width: 90%;
+	height: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: solid;
+	border-bottom-color: #999;
+	border-bottom-width: 1px;
+}
+
+#page-passion-picture {
+	width: 80%;
+	margin: 0 auto;
+	float: none;
+	background-image: url("images/collage-reduce.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#page-passion-text {
+	text-align: center;
+	padding-left: 0;
+	padding-top: 20px;
+	height: 100%;
+	color: #333;
+	font-size: 1.3em;
+	font-family: 'Copse', serif;
+}
+
+#page-passion-text h1 {
+	color: #333;
+	font-size: 1.8em;
+	font-family: 'Copse', serif;
+	text-align: center;
+}
+
+.page-content {
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: solid;
+	border-bottom-color: #999;
+	border-bottom-width: 1px;
+}
+
+.page-content h1 {
+	color: #333;
+	text-align: left;
+	font-size: 1.8em;
+	font-family: 'Copse', serif;
+}
+
+.page-content p {
+	color: #3e3e3e;
+	text-align: justify;
+	font-family: 'Copse', serif;
+}
+
+#page-contact {
+	margin: 0 auto;
+	width: 90%;
+	height: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#page-contact img {
+    width: 15%;
+}
+
+.rotate {
+	-webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+}
+
+.rotate:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}

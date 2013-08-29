@@ -1,0 +1,218 @@
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+@import url(http://fonts.googleapis.com/css?family=Copse);
+
+html, body {
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+/* ---------------------------------- */
+/* -             HEADER             - */
+/* ---------------------------------- */
+
+#header {
+	margin-top: 0;
+	width: 100%;
+	height: 438px;
+	background-image: url("images/header-background-reduce.jpg");
+	background-repeat: repeat-x;
+	background-size: 700px;
+	background-position: 320px 0; 
+}
+
+#header-container {
+	margin: 0 auto;
+	width: 960px;
+	height: 180px;
+	padding-top: 125px;
+	text-align: center;
+	color: white;
+}
+
+#photo {
+	width: 180px;
+	height: 180px;
+	float: left;
+	position: relative;
+	margin-left: 100px;
+	background-color: white;
+	background-size: 160px;
+	background-image: url("images/photo.png");
+	background-position: 10px 11px;
+	background-repeat: no-repeat;
+  	border-radius:50%;
+}
+
+#head-title {
+	height: 180px;
+}
+
+#head-title h1 {
+	margin: 0 auto;
+	padding-top: 30px;
+	font-family: 'Fjalla One', serif;
+	font-size: 3em;
+}
+
+#head-title h3 {
+	margin: 0 auto;
+	padding-top: 30px;
+	font-family: 'Century Gothic', serif;
+	font-size: 1em;
+}
+
+/* ---------------------------------- */
+/* -              Page              - */
+/* ---------------------------------- */
+
+.page {
+	margin: 0 auto;
+	width: 100%;
+	background-image: url("images/page-background.png");
+	background-repeat: repeat; 
+}
+
+#page-blocks {
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 30px;
+	height: 334px;
+	border-bottom: solid;
+	border-bottom-color: #999;
+	border-bottom-width: 1px;
+}
+
+#block1, #block2, #block3 {
+	width: 31%;
+	height: 290px;
+	float: left;
+	background-position: center 10px;
+	background-repeat: no-repeat;
+	background-size: 120px;
+}
+
+#block1 {
+	background-image: url("images/desktop.png");
+}
+
+#block2 {
+	background-image: url("images/braces.png");
+}
+
+#block3 {
+	background-image: url("images/binary.png");
+}
+
+.block-text {
+	margin: 0 auto;
+	padding-top: 140px;
+	color: #3e3e3e;
+	text-align: center;
+}
+
+.block-text img {
+	width: 16px;
+	height: 16px;
+}
+
+.block-text h1 {
+	font-size: 2em;
+	font-family: 'Copse', serif;
+}
+
+.block-text table {
+	text-align: center;
+	margin: 0 auto;
+}
+
+#page-passion {
+	margin: 0 auto;
+	width: 90%;
+	height: 300px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: solid;
+	border-bottom-color: #999;
+	border-bottom-width: 1px;
+}
+
+#page-passion-picture {
+	width: 300px;
+	height: 300px;
+	margin-left: 30px;
+	float: left;
+	background-image: url("images/collage-reduce.jpg");
+	background-size: 300px;
+	background-repeat: no-repeat;
+}
+
+#page-passion-text {
+	text-align: center;
+	padding-left: 340px;
+	padding-top: 0;
+	height: 240px;
+	color: #333;
+	font-size: 1.4em;
+	font-family: 'Copse', serif;
+}
+
+#page-passion-text h1 {
+	color: #333;
+	font-size: 1.8em;
+	font-family: 'Copse', serif;
+	text-align: center;
+}
+
+.page-content {
+	margin: 0 auto;
+	width: 90%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: solid;
+	border-bottom-color: #999;
+	border-bottom-width: 1px;
+}
+
+.page-content h1 {
+	color: #333;
+	text-align: left;
+	font-size: 1.8em;
+	font-family: 'Copse', serif;
+}
+
+.page-content p {
+	color: #3e3e3e;
+	text-align: justify;
+	font-family: 'Copse', serif;
+}
+
+#page-contact {
+	margin: 0 auto;
+	width: 90%;
+	height: 128px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.rotate {
+	-webkit-transition-duration: 0.8s;
+    -moz-transition-duration: 0.8s;
+    -o-transition-duration: 0.8s;
+    transition-duration: 0.8s;
+     
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    transition-property: transform;
+     
+    overflow:hidden;
+}
+
+.rotate:hover {
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg); 
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
