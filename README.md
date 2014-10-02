@@ -1,5 +1,6 @@
 Personal Web Page
 ================
+[![Gitter](https://badges.gitter.im/Join Chat.svg)](https://gitter.im/GuillaumeHaben/PersonalWebPage?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 A responsive web page only in HTML5 and CSS3.
 <br/>
